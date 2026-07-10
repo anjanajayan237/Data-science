@@ -1,0 +1,12 @@
+import numpy as np
+A=np.array([[1,2],[3,4]])
+print("orginal matrix:")
+print(A)
+print("Transpose:")
+print(np.transpose(A))
+print("Determinant:")
+print(np.linalg.det(A))
+print("Inverse:")
+print(np.linalg.inv(A))
+print("Reshape:")
+print(np.reshape(A,(1,4)))
